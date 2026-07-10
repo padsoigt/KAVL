@@ -1,0 +1,20 @@
+{
+  "name": "coach-ia",
+  "version": "1.0.0",
+  "description": "Web app de suivi d'entraînement avec coach IA (Ollama) et mémoire structurée.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
